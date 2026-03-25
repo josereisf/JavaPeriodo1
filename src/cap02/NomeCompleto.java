@@ -10,6 +10,7 @@ public class NomeCompleto {
         nome2 = "Pedro";
 
         nome3 = "Silva";
+
         System.out.println("Seu nome é " + nome1 + " " + nome2 + " " + nome3);
     }
 }
