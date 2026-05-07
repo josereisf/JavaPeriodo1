@@ -1,0 +1,14 @@
+package cap05;
+
+import java.text.DecimalFormat;
+
+public class ArrayNumeros {
+    public static void main(String[] args) {
+        int[] numeros = new int[10];
+        DecimalFormat df = new DecimalFormat("000");
+        for(int i = 0; i < numeros.length; i++){
+            numeros[i] = (int) (Math.random() * 1000);
+            System.out.println(df.format(numeros[i]));
+        }
+    }
+}
